@@ -1,10 +1,18 @@
-# 🌀 AdbVortex
-
 [![JetBrains Plugin](https://img.shields.io/jetbrains/plugin/v/28658-adbvortex.svg)](https://plugins.jetbrains.com/plugin/28658-adbvortex)
+
+# AdbVortex
 
 **AdbVortex** lets you share your computer’s internet connection with any Android device connected via **ADB**, directly from **IntelliJ IDEA** or **Android Studio**.
 
-A simple and elegant proxy controller that creates an HTTP bridge between your desktop and the device — perfect for testing backend APIs or internal environments.
+It provides a simple and elegant proxy controller that creates an HTTP bridge between your desktop and the device — perfect for testing backend APIs, staging servers, or internal environments that aren’t publicly accessible.
+
+---
+
+## ✨ Features
+- 🧩 One-click Start/Stop HTTP proxy for ADB-connected devices  
+- 🔍 Automatic device detection via `adb devices`  
+- ⚙️ Real-time logs inside the IDE Tool Window  
+- 🚀 Ideal for backend testing, QA, and corporate network debugging
 
 ---
 
