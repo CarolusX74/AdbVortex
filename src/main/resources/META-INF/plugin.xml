@@ -1,0 +1,29 @@
+<idea-plugin>
+    <id>com.pensa.adbvortex</id>
+    <name>AdbVortex</name>
+    <vendor email="carlos@pensa.com.ar" url="https://pensa.com.ar">Carlos Javier Torres Pensa</vendor>
+    <version>1.0.0</version>
+    <category>Developer Tools</category>
+
+    <idea-version since-build="231" />
+
+    <description><![CDATA[
+        <p><b>AdbVortex</b>: Share your computer's internet connection with a connected Android device via ADB.</p>
+        <ul>
+            <li>Start/Stop an embedded HTTP proxy on your computer</li>
+            <li>Automatically configure ADB reverse and device proxy</li>
+            <li>Tool Window with live logs</li>
+        </ul>
+    ]]></description>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="AdbVortex"
+                    factoryClass="com.pensa.adbvortex.ui.AdbVortexToolWindowFactory"
+                    anchor="right"
+                    canCloseContent="false"
+                    visibleOnStart="true"
+                    icon="/icons/adbvortex_32.png" />
+    </extensions>
+</idea-plugin>
