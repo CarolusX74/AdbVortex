@@ -129,5 +129,16 @@ furnished to do so, subject to the following conditions:
 
 ---
 
+## ☕ Support & Donations
+
+If you find **AdbVortex** useful and want to support its development, you can:
+
+[![Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/carolusx74)  
+[**Buy me a coffee ☕**](https://www.buymeacoffee.com/carolusx74)
+
+Your support helps keep the vortex spinning 🌪️ — thank you!
+
+---
+
 🌀 *AdbVortex — by Carlos Javier Torres Pensa*  
 *Bridging Android and Desktop worlds, one proxy at a time.*
